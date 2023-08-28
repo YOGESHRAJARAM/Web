@@ -67,7 +67,43 @@ body{
 .first_page_v2{
     background-color: rgba(24, 185, 45, 0.741);
     width: 1440px;
-    height:669px
+    height:669px;
+    position: relative;
+    margin-top: 10px;
+    
+  }
+  .chil_1_page1{
+    position: relative;
+  }
+  .chil_2_page1{
+    position: absolute;
+    top:200px;
+    left:2px
+  }
+  .chil_3_page1{
+    position: absolute;
+    top:200px;
+    right:2px;
+  }
+  .chil_6_page1{
+    position: absolute;
+    top:260px;
+    left:40px;
+  }
+  .chil_5_page1{
+    position: absolute;
+    top:260px;
+    right:40px
+  }
+  .text_on_page1{
+    position: absolute;
+    top: 400px;
+    left: 355px;
+    color: rgba(255,255,255,1);
+    font-weight: 400;
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
   }
 
 /*design for second page*/
