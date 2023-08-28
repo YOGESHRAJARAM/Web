@@ -1,0 +1,27 @@
+.first_page{
+    background-color: rgba(128,128,128);
+    
+}
+.first_page_v1{
+    display: flex;
+    
+    background-color: rgba(192, 31, 31, 0.882);
+    border: 5px;
+    width: 1440px;
+    height: 160px;
+    
+}
+.first_page_v2{
+  background-color: rgba(24, 185, 45, 0.741);
+  width: 1440px;
+  height:669px
+}
+.second_page{
+    background-color: rgba(128,128,128);
+}
+.second_page_v1{
+    background-color: rgb(169, 77, 71);
+}
+.second_page_v2{
+    background-color: blueviolet;
+}
