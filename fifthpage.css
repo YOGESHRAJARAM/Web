@@ -1,5 +1,5 @@
 .page_five{
-    background-color: rgb(150, 87, 87);
+    background-color: rgb(255, 255, 255);
     width: 1440px;
     height: 1079px;
 }
@@ -8,4 +8,61 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+}
+.page_five_v1_title1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 82px;
+    letter-spacing: -2.4px;
+    font-weight: 400;
+    
+}
+.page_five_v1_para1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    letter-spacing: -0.32px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 0px;
+}
+.page_five_v2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.page_five_v2_div_img1{
+    margin-left: 75px;
+    margin-right: 36px;
+}
+.page_five_v2_div_para2{
+    position: absolute;
+    top: 600px;
+    right: 125px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    letter-spacing: -0.22px;
+    text-align: center;
+    color: whitesmoke;
+    width: 538px;
+    height: 105px;
+}
+.page_five_v2_div_para1{
+    position: absolute;
+    top: 600px;
+    left: 125px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    letter-spacing: -0.22px;
+    text-align: center;
+    color: whitesmoke;
+    width: 538px;
+    height: 105px;
+}
+.page_six{
+    width: 1440px;
+    height:600px;
+    background-color: rgb(255, 255, 255);
+
 }
