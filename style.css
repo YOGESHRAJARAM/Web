@@ -109,10 +109,66 @@ body{
 /*design for second page*/
 .second_page{
     background-color: rgba(128,128,128);
+    width: 1440px;
+    height:1079px;
 }
 .second_page_v1{
     background-color: rgb(169, 77, 71);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second_page_title1{
+  background-color: yellowgreen;
+  margin: 0px;
+  display: inline-block;
+}
+.second_page_title1_h1{
+  margin-bottom: 0px;
+  
+}
+.second_page_title2_p{
+  margin-top: 0px;
+}
+.second_page_title2{
+  background-color: orange;
+  
 }
 .second_page_v2{
-    background-color: blueviolet;
+  
+   background-color: whitesmoke;
 }
+/* grid section*/
+.second_page_content{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 75px;
+  margin-left: 75px;
+  margin-top: 10px;
+  margin-right: 75px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+/* .page2_grid{
+  width: 363px;
+  height: 191px;
+}
+.page2_grid1{
+  background-color: greenyellow;
+}
+.page2_grid2{
+  background-color: rgba(255, 255, 0, 0.318);
+}
+.page2_grid3{
+  background-color: greenyellow;
+}
+.page2_grid4{
+  background-color: rgba(255, 255, 0, 0.318);
+}
+.page2_grid5{
+  background-color: greenyellow;
+}
+.page2_grid6{
+ background-color: rgba(255, 255, 0, 0.318)
+}
+*/
