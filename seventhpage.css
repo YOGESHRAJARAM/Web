@@ -1,6 +1,33 @@
 .page_seven{
     width: 1440px;
-    background-color: rgba(104, 104, 255, 0.455);
-    height: 1010px;
+    background-color: rgb(255, 255, 255);
+    height: 750px;
     
+}
+.seventh_page_v1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.seventh_page_v1_heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 82px;
+    letter-spacing: -2.4px;
+    font-weight: 400;
+}
+.seventh_page_v1_para{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    letter-spacing: -0.32px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 0px;
+}
+.seventh_page_v2{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    gap: 72px;
+    margin-left: 75px;
+    margin-top: 50px;
 }

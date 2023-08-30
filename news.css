@@ -1,0 +1,26 @@
+.news_Page_container{
+    width: 386.66px;
+    height: 193.33px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.news_page_img_des_para{
+    width: 160.34px;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.32px;
+}
+.news_page_img_des_author{
+    width: 116px;
+    height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 1.12px;
+}
+.news_page_img_des{
+    margin-left: 10px;
+    margin-top:35px;
+}
